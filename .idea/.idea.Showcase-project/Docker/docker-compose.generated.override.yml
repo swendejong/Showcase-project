@@ -1,0 +1,42 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  showcase-api:
+    build:
+      context: "/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ShowcaseAPI.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "showcase-api-image:dev"
+    ports: []
+    volumes:
+    - "/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI:/app:rw"
+    - "/Users/swendejong/Desktop/Showcase_contactpagina:/src:rw"
+    - "/Users/swendejong/.nuget/packages:/root/.nuget/packages"
+    working_dir: "/app"
+  showcase-contactpagina:
+    build:
+      context: "/Users/swendejong/Desktop/Showcase_contactpagina"
+      dockerfile: "Showcase-Contactpagina/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Showcase-Contactpagina.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net8.0/Showcase-Contactpagina.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "showcase-contactpagina-image:dev"
+    ports: []
+    volumes:
+    - "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina:/app:rw"
+    - "/Users/swendejong/Desktop/Showcase_contactpagina:/src:rw"
+    - "/Users/swendejong/.nuget/packages:/root/.nuget/packages"
+    working_dir: "/app"

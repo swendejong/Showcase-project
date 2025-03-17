@@ -1,0 +1,20 @@
+﻿version: '3.8'
+
+services:
+  showcase-contactpagina:
+    container_name: showcase-contactpagina-container
+    build:
+      context: .
+      dockerfile: Showcase-Contactpagina/Dockerfile
+    image: showcase-contactpagina-image
+    ports:
+      - "8080:8080"
+
+  showcase-api:
+    container_name: showcase-api-container
+    build:
+      context: ./ShowcaseAPI
+      dockerfile: Dockerfile
+    image: showcase-api-image
+    ports:
+      - "8081:8081"

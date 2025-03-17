@@ -1,0 +1,35 @@
+/* Calendar Styles */
+.availability-calendar {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    gap: 10px;
+}
+
+.availability-day {
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(39, 140, 39, 0.96);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.availability-day.available {
+    background-color: rgba(39, 140, 39, 0.96);
+    color: white;
+}
+
+.availability-day.unavailable {
+    background-color: #f0f0f0;
+    color: #d0d0d0;
+    cursor: not-allowed;
+}
+
+.availability-day:hover {
+    background-color: rgba(39, 140, 39, 0.3);
+    transform: scale(1.05);
+}

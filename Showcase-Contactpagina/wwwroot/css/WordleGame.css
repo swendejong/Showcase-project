@@ -1,0 +1,278 @@
+/* Add a large square background behind the page */
+.wordle-game-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100vw; /* Full width of the viewport */
+    height: calc(100vh - 180px); /* Full height minus the top and bottom space */
+    background-color: #aaf0d1;
+    z-index: -1; /* Position it behind the content */
+}
+
+/* Ensure the container takes up the full height */
+.wordle-game-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the Wordle title */
+.wordle-title {
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin-top: 25px; /* Reduced margin-top */
+    margin-bottom: 50px;
+    color: #ffb3b3;
+    text-align: center;
+}
+
+/* Style for the welcome text */
+.welcome-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: black;
+}
+
+/* Buttons container */
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%; /* Adjust this width as needed */
+    max-width: 500px; /* Optional: set a max-width for larger screens */
+    margin: 0 auto; /* Center the buttons container */
+}
+
+/* Style for each button */
+.single-player-button {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #73c883;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 25px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.single-player-button:hover {
+    background-color: #5ea568; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slight scale up for the hover effect */
+}
+
+.create-game-button {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #26874E;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.create-game-button:hover {
+    background-color: #1d6e3c; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slight scale up for the hover effect */
+}
+
+.join-game-button {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcd404;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 60px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.join-game-button:hover {
+    background-color: #e0b800; /* Slightly darker yellow on hover */
+    transform: scale(1.05); /* Slight scale up for the hover effect */
+}
+
+/* Style for the exit button */
+.exit-button-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%; /* Adjust this width as needed */
+    max-width: 500px; /* Optional: set a max-width for larger screens */
+}
+
+.exit-button {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: black;
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.exit-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+/* Waiting Screen Styles */
+.waiting-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    color: black;
+}
+
+.game-code-container {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.game-code {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #fcd404;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.loading-indicator {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ccc;
+    border-top: 5px solid #26874E;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Join Game Text */
+.join-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.game-code-input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #73c883;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Join Button */
+.join-game-submit {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #26874E;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.join-game-submit:hover {
+    background-color: #1d6e3c;
+    transform: scale(1.05);
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Styling for the game board (5x6 grid) */
+.game-board {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr); /* 6 rows */
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px;
+    width: 60%; /* Adjust this to the desired width */
+    margin-top: 50px; /* Some space between the title and the game board */
+}
+
+/* Styling for each row */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for each cell */
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Styling for the input fields (letters) */
+.letter-input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+/* Add focus effect to inputs */
+.letter-input:focus {
+    outline: none;
+    border-color: #26874e;
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
+}
+

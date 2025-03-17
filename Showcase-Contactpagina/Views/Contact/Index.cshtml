@@ -1,0 +1,203 @@
+﻿@model Contactform
+@{
+    ViewData["Title"] = "Contactpagina";
+}
+
+<head>
+    <link href="~/css/contact-form.css" rel="stylesheet" />
+    <link href="~/css/availability-calendar.css" rel="stylesheet" />
+</head>
+
+<div class="page">
+    <section class="contact">
+        <div class="header-info">
+            <img class="person-logo" src="images/doggo.png" alt="profile picture">
+            <h1 class="person-name">Swen de Jong</h1>
+        </div>
+
+        <div class="availability">
+            <h3>Beschikbaarheid</h3>
+            <div class="availability-calendar" id="availabilityCalendar"></div>
+        </div>
+
+        <form method="post" class="form-contactpagina">
+            <div class="form-contactpagina__inputelement fx-col">
+                <label for="firstname">Voornaam: </label>
+                <input type="text" asp-for="FirstName" name="firstname" id="firstname" required>
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <label for="lastname">Achternaam: </label>
+                <input type="text" asp-for="LastName" name="lastname" id="lastname" required>
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <label for="email">E-mailadres: </label>
+                <input type="email" asp-for="Email" name="email" id="email">
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <label for="phone">Telefoonnummer: </label>
+                <input type="tel" asp-for="Phone" name="phone" id="phone">
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <label for="message">Bericht: </label>
+                <textarea asp-for="Message" name="message" id="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <label for="captcha">Beantwoord de CAPTCHA:</label>
+                <div class="h-captcha" data-sitekey="557a2a26-52e2-4856-a0f6-b42688accf64"></div>
+                <input type="hidden" name="hCaptchaResponse" id="hCaptchaResponse">
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <input type="submit" value="Verstuur!">
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <input type="reset" value="Reset velden">
+            </div>
+        </form>
+
+        <div id="successMessage" style="display: none; color: green;">
+            Bedankt voor je bericht! Het formulier is succesvol verzonden.
+        </div>
+    </section>
+</div>
+
+<script src="https://hcaptcha.com/1/api.js" async defer></script>
+
+<script>
+    // Functie om de data van de huidige week te genereren
+    function generateWeekDates() {
+        const today = new Date(); // Huidige datum
+        const weekDays = ['Zon', 'Maa', 'Din', 'Woe', 'Don', 'Vri', 'Zat']; // Namen van de dagen in het Nederlands
+        const calendarContainer = document.getElementById('availabilityCalendar'); // Het container-element voor de kalender
+        const daysOfWeek = [];
+
+        today.setDate(today.getDate() - today.getDay()); // Zet de datum naar de vorige zondag
+
+        // Maak een knop voor elke dag van de week
+        for (let i = 0; i < 7; i++) {
+            const day = new Date(today);
+            day.setDate(today.getDate() + i); // Voeg één dag per iteratie toe
+            const dayString = `${weekDays[day.getDay()]} ${day.getDate()}/${day.getMonth() + 1}`; // Datum in "Dag dd/mm" formaat
+            const isAvailable = (i !== 0 && i !== 6); // Maak alleen werkdagen beschikbaar (ma-vr)
+
+            const dayButton = document.createElement('button');
+            dayButton.classList.add('availability-day'); // Voeg de juiste CSS-klasse toe
+            if (isAvailable) {
+                dayButton.classList.add('available'); // Beschikbare dagen krijgen de 'available' klasse
+            } else {
+                dayButton.classList.add('unavailable'); // Weekenddagen krijgen de 'unavailable' klasse
+                dayButton.disabled = true; // Zet de weekenddagen uitgeschakeld
+            }
+            dayButton.innerText = dayString; // Zet de tekst van de knop op de dag
+
+            calendarContainer.appendChild(dayButton); // Voeg de knop toe aan de kalender
+        }
+    }
+
+    generateWeekDates(); // Roep de functie aan om de kalender weer te geven
+
+    const successMessage = document.getElementById('successMessage'); // Het succesbericht dat wordt getoond na succesvolle indiening
+    const form = document.querySelector('.form-contactpagina'); // De formulier-element
+    form.addEventListener('submit', function (event) {
+        const hCaptchaResponse = document.querySelector('#hCaptchaResponse'); // Het verborgen inputveld voor hCaptcha
+        hCaptchaResponse.value = grecaptcha.getResponse(); // Verkrijg de reactie van hCaptcha
+
+        // Controleer of de hCaptcha is ingevuld
+        if (hCaptchaResponse.value === "") {
+            alert("Beantwoord de CAPTCHA!"); // Toon een foutmelding als de CAPTCHA niet beantwoord is
+            event.preventDefault(); // Voorkom dat het formulier wordt verzonden
+        }
+    });
+
+    // Validatie van de formuliervelden
+    const inputEmail = document.getElementById('email');
+    const inputPhone = document.getElementById('phone');
+    const inputMessage = document.getElementById('message');
+
+    const validateEmail = () => {
+        if (inputEmail.validity.typeMismatch) {
+            inputEmail.setCustomValidity("Voer een geldig e-mailadres in!"); // Toon een foutmelding als het e-mailadres ongeldig is
+            inputEmail.reportValidity(); // Toon de foutmelding
+        } else if (inputEmail.value.length > 80) {
+            inputEmail.setCustomValidity("Email moet niet langer dan 80 tekens zijn!"); // Maximaal 80 tekens
+        } else {
+            inputEmail.setCustomValidity(""); // Geen foutmelding
+        }
+    };
+
+    const validatePhone = () => {
+        const phoneRegex = /^\+?[0-9]{10,15}$/; // Reguliere expressie voor telefoonnummervalidatie
+        if (!phoneRegex.test(inputPhone.value)) {
+            inputPhone.setCustomValidity("Voer een geldig telefoonnummer in (tussen 10 en 15 cijfers).");
+            inputPhone.reportValidity(); // Toon de foutmelding
+        } else {
+            inputPhone.setCustomValidity(""); // Geen foutmelding
+        }
+    };
+
+    const validateMessage = () => {
+        if (inputMessage.value.trim().length < 10 || inputMessage.value.trim().length > 600) {
+            inputMessage.setCustomValidity("Het bericht moet minimaal 10 tekens bevatten.");
+            inputMessage.reportValidity(); // Toon de foutmelding
+        } else {
+            inputMessage.setCustomValidity(""); // Geen foutmelding
+        }
+    };
+
+    const validateForm = () => {
+        validateEmail(); // Voer e-mailvalidatie uit
+        validatePhone(); // Voer telefoonnummervalidatie uit
+        validateMessage(); // Voer berichtvalidatie uit
+    };
+
+    inputEmail.addEventListener("blur", validateEmail); // Voer validatie uit als het e-mailveld verliest focus
+    inputPhone.addEventListener("blur", validatePhone); // Voer validatie uit als het telefoonnummer veld verliest focus
+    inputMessage.addEventListener("blur", validateMessage); // Voer validatie uit als het berichtveld verliest focus
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault(); // Voorkom dat het formulier direct wordt verzonden
+
+        validateForm(); // Valideer het formulier
+
+        if (!form.checkValidity()) {
+            return; // Stop met indienen als het formulier niet geldig is
+        }
+
+        // Verkrijg CSRF-token voor beveiliging
+        const csrfToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+        const formData = new URLSearchParams();
+        formData.append('firstname', form.firstname.value); // Voeg de voornaam toe
+        formData.append('lastname', form.lastname.value); // Voeg de achternaam toe
+        formData.append('email', form.email.value); // Voeg het e-mailadres toe
+        formData.append('phone', form.phone.value); // Voeg het telefoonnummer toe
+        formData.append('message', form.message.value); // Voeg het bericht toe
+        formData.append('__RequestVerificationToken', csrfToken); // Voeg CSRF-token toe
+
+        fetch('/contact', {
+            method: 'POST', // Gebruik de POST-methode voor indienen
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: formData // Verstuur de gegevens van het formulier
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Netwerkrespons was niet ok');
+                }
+                return response.text();
+            })
+            .then(data => {
+                successMessage.style.display = "block"; // Toon het succesbericht
+                form.reset(); // Reset het formulier
+            })
+            .catch(error => {
+                alert(error.message); // Toon een foutmelding als iets misgaat
+            });
+    });
+</script>

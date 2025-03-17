@@ -1,0 +1,198 @@
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/appsettings.Development.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/appsettings.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.deps.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.runtimeconfig.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.pdb
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Azure.Core.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Azure.Identity.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Azure.Security.KeyVault.Certificates.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Azure.Security.KeyVault.Secrets.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Abstractions.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Certificate.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Certificateless.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Diagnostics.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.DownstreamApi.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.TokenAcquisition.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.TokenCache.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.LoggingExtensions.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Validators.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.csproj.AssemblyReference.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.AssemblyInfoInputs.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.AssemblyInfo.cs
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.csproj.CoreCompileInputs.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.build.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.development.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.ShowcaseAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.ShowcaseAPI.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShowcaseAPI.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShowcaseAPI.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/scopedcss/bundle/ShowcaseAPI.styles.css
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/Showcase.88B98176.Up2Date
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/refint/ShowcaseAPI.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.pdb
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.genruntimeconfig.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/ShowcaseAPI/obj/Debug/net8.0/ref/ShowcaseAPI.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/appsettings.Development.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/appsettings.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/ShowcaseAPI
+/Users/swendejong/Desktop/web development showcase/Showcase-project/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.deps.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.runtimeconfig.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/ShowcaseAPI.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/ShowcaseAPI.pdb
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Azure.Core.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Azure.Identity.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Azure.Security.KeyVault.Certificates.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Azure.Security.KeyVault.Secrets.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Abstractions.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Certificate.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Certificateless.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Diagnostics.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.DownstreamApi.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.TokenAcquisition.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.TokenCache.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.LoggingExtensions.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Validators.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.csproj.AssemblyReference.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.AssemblyInfoInputs.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.AssemblyInfo.cs
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.csproj.CoreCompileInputs.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets.build.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets.development.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.ShowcaseAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.ShowcaseAPI.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShowcaseAPI.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShowcaseAPI.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/scopedcss/bundle/ShowcaseAPI.styles.css
+/Users/swendejong/Desktop/web development showcase/Showcase-project/ShowcaseAPI/obj/Debug/net8.0/Showcase.88B98176.Up2Date
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/refint/ShowcaseAPI.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/showcaseAPI/obj/Debug/net8.0/ShowcaseAPI.pdb
+/Users/swendejong/Desktop/web development showcase/Showcase-project/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.genruntimeconfig.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/ShowcaseAPI/obj/Debug/net8.0/ref/ShowcaseAPI.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/appsettings.Development.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/appsettings.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.staticwebassets.endpoints.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.deps.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.runtimeconfig.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/ShowcaseAPI.pdb
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Azure.Core.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Azure.Identity.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Azure.Security.KeyVault.Certificates.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Azure.Security.KeyVault.Secrets.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Abstractions.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Certificate.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Certificateless.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.Diagnostics.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.DownstreamApi.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.TokenAcquisition.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Identity.Web.TokenCache.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.LoggingExtensions.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Validators.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.csproj.AssemblyReference.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.AssemblyInfoInputs.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.AssemblyInfo.cs
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.csproj.CoreCompileInputs.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/scopedcss/bundle/ShowcaseAPI.styles.css
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.build.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.development.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.ShowcaseAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.ShowcaseAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.ShowcaseAPI.props
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShowcaseAPI.props
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShowcaseAPI.props
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/Showcase.88B98176.Up2Date
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/refint/ShowcaseAPI.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.pdb
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ShowcaseAPI.genruntimeconfig.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net8.0/ref/ShowcaseAPI.dll

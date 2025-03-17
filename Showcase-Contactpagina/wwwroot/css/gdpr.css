@@ -1,0 +1,55 @@
+.gdpr-consent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%; /* Centraal verticaal */
+    left: 50%; /* Centraal horizontaal */
+    transform: translate(-50%, -50%); /* Maakt de popup precies in het midden */
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 9999; /* Zorgt ervoor dat de popup altijd boven andere elementen wordt weergegeven */
+    width: 80%; /* Je kunt de breedte naar wens aanpassen */
+    max-width: 400px; /* Maximaliseer de breedte */
+    display: none; /* Verbergen bij standaard laden */
+}
+
+.gdpr-consent__description{
+    display: flex;
+    justify-content: center;
+}
+
+.gdpr-consent__choice{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.gdpr-consent__button--accept {
+    background-color: #d5f5d5;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.gdpr-consent__button--accept:hover {
+    background-color: #c5e3c5;
+}
+
+.gdpr-consent__button--reject {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block; /* De popup wordt zichtbaar als de show klasse wordt toegevoegd */
+}

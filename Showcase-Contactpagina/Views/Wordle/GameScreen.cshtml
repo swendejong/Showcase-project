@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Wordle - Game Screen";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/wordle.css"> <!-- Link to your external CSS file -->
+    <script src="~/js/wordle.js" defer></script> <!-- Link to your external JavaScript file -->
+</head>
+
+<body>
+
+<div class="wordle-title-container">
+    <h1 class="title">Wordle</h1>
+</div>
+
+<div class="wordle-game-container">
+    <div id="board"></div>
+
+    <br>
+    <br>
+    <br>
+    <h1 id="answer"></h1>
+
+
+    <div id="keyboard-container"></div>
+</div>
+<div>
+    <a asp-controller="Wordle" asp-action="Index" class="exit-button">QUIT</a>
+</div>
+</body>
+</html>

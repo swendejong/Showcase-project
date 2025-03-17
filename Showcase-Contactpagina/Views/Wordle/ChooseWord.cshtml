@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Choose Your Word";
+}
+
+<div class="wordle-title-container">
+    <h1 class="wordle-title">Wordle</h1>
+</div>
+
+<div class="wordle-game-container">
+    <div class="choose-word-text">
+        <p>Choose word for opponent player:</p>
+    </div>
+
+    <!-- Form for Player 1 to Choose Word -->
+    <form asp-controller="Wordle" asp-action="ChooseWord" method="post" class="choose-word-form">
+        <input type="text" name="player1Word" class="word-input" placeholder="Player 1 Word" required maxlength="5">
+        <button type="submit" class="choose-word-submit">Submit Word</button>
+    </form>
+
+    <div class="choose-word-text">
+        <p>Waiting for the other player to choose their word...</p>
+    </div>
+    
+    <div class="exit-button-container">
+        <button class="exit-button" onclick="window.location.href='@Url.Action("Index", "Wordle")'">Back</button>
+    </div>
+</div>

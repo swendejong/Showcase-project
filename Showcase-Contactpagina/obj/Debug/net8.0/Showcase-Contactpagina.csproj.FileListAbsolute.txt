@@ -1,0 +1,108 @@
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/appsettings.Development.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/appsettings.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Vite/package-lock.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Vite/package.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.staticwebassets.runtime.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.deps.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.runtimeconfig.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.csproj.AssemblyReference.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.GeneratedMSBuildEditorConfig.editorconfig
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.AssemblyInfoInputs.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.AssemblyInfo.cs
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.csproj.CoreCompileInputs.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.MvcApplicationPartsAssemblyInfo.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.RazorAssemblyInfo.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.RazorAssemblyInfo.cs
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.build.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.development.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.Showcase-Contactpagina.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.build.Showcase-Contactpagina.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Showcase-Contactpagina.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Showcase-Contactpagina.props
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/bundle/Showcase-Contactpagina.styles.css
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/projectbundle/Showcase-Contactpagina.bundle.scp.css
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase.1B471288.Up2Date
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/refint/Showcase-Contactpagina.dll
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.genruntimeconfig.cache
+/Users/swendejong/Downloads/webdev-showcase-studentversie-main 2/UC2-Contactpagina-week-3-Vite/Showcase-Contactpagina/obj/Debug/net8.0/ref/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/appsettings.Development.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/appsettings.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Vite/package-lock.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Vite/package.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.staticwebassets.runtime.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.deps.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.runtimeconfig.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.csproj.AssemblyReference.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.GeneratedMSBuildEditorConfig.editorconfig
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.AssemblyInfoInputs.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.AssemblyInfo.cs
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.csproj.CoreCompileInputs.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.MvcApplicationPartsAssemblyInfo.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.RazorAssemblyInfo.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.RazorAssemblyInfo.cs
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.build.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.development.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.Showcase-Contactpagina.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.build.Showcase-Contactpagina.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Showcase-Contactpagina.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Showcase-Contactpagina.props
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/bundle/Showcase-Contactpagina.styles.css
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/projectbundle/Showcase-Contactpagina.bundle.scp.css
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase.1B471288.Up2Date
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/refint/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.genruntimeconfig.cache
+/Users/swendejong/Desktop/web development showcase/Showcase-project/Showcase-Contactpagina/obj/Debug/net8.0/ref/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/appsettings.Development.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/appsettings.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Vite/package-lock.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Vite/package.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.staticwebassets.runtime.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.staticwebassets.endpoints.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.deps.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.runtimeconfig.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.csproj.AssemblyReference.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.GeneratedMSBuildEditorConfig.editorconfig
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.AssemblyInfoInputs.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.AssemblyInfo.cs
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.csproj.CoreCompileInputs.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.MvcApplicationPartsAssemblyInfo.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.RazorAssemblyInfo.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.RazorAssemblyInfo.cs
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/bundle/Showcase-Contactpagina.styles.css
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/scopedcss/projectbundle/Showcase-Contactpagina.bundle.scp.css
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.build.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.development.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.Showcase-Contactpagina.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.Showcase-Contactpagina.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.build.Showcase-Contactpagina.props
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Showcase-Contactpagina.props
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Showcase-Contactpagina.props
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase.1B471288.Up2Date
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/refint/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/Showcase-Contactpagina.genruntimeconfig.cache
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net8.0/ref/Showcase-Contactpagina.dll

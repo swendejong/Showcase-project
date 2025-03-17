@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Join Game";
+}
+
+<div class="wordle-title-container">
+    <h1 class="wordle-title">Wordle</h1>
+</div>
+
+<div class="wordle-game-container">
+    <div class="join-text">
+        <p>Enter the game code to join:</p>
+    </div>
+
+    <form asp-controller="Wordle" asp-action="JoinGame" method="post" class="join-game-form">
+        <input type="text" name="gameCode" class="game-code-input" placeholder="Enter code" required>
+        <button type="submit" class="join-game-submit">Join Game</button>
+    </form>
+
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <p class="error-message">@ViewData["ErrorMessage"]</p>
+    }
+
+    <div class="exit-button-container">
+        <button class="exit-button" onclick="window.location.href='@Url.Action("Index", "Wordle")'">Back</button>
+    </div>
+</div>

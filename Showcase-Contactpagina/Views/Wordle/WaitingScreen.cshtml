@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Waiting for Opponent";
+}
+
+<div class="wordle-title-container">
+    <h1 class="wordle-title">Wordle</h1>
+</div>
+
+<div class="wordle-game-container">
+    <div class="waiting-text">
+        <p>Waiting for an opponent to join...</p>
+    </div>
+
+    <div class="game-code-container">
+        <p>Your game code:</p>
+        <div class="game-code">@ViewData["GameCode"]</div>
+    </div>
+
+    <div class="loading-indicator"></div>
+
+    <div class="exit-button-container">
+        <a asp-controller="Wordle" asp-action="Index" class="exit-button">Cancel Game</a>
+    </div>
+</div>

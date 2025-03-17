@@ -1,0 +1,117 @@
+/* Contact Form Page Styles */
+.page {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.person-logo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.person-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(39, 140, 39, 0.96);
+}
+
+.availability {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.availability h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(39, 140, 39, 0.96);
+    margin-bottom: 10px;
+}
+
+.availability-calendar {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    gap: 10px;
+}
+
+.availability-day {
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(39, 140, 39, 0.96);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.availability-day.available {
+    background-color: rgba(39, 140, 39, 0.96);
+    color: white;
+}
+
+.availability-day.unavailable {
+    background-color: #f0f0f0;
+    color: #d0d0d0;
+    cursor: not-allowed;
+}
+
+.form-contactpagina {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contactpagina__inputelement {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 12px 20px;
+    border: none;
+    background-color: rgba(39, 140, 39, 0.96);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: rgba(39, 140, 39, 1);
+}
+
+.success-message {
+    color: green;
+    display: none;
+}

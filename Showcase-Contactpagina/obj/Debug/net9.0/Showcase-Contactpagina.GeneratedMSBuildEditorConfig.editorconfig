@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Showcase_Contactpagina
+build_property.RootNamespace = Showcase_Contactpagina
+build_property.ProjectDir = /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Team/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhbS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/ChooseWord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL0Nob29zZVdvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/GameScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL0dhbWVTY3JlZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/JoinGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL0pvaW5HYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/WaitingScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL1dhaXRpbmdTY3JlZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i0enjxr2yr

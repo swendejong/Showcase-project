@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WqbvL2X3X9c=",
+  "success": true,
+  "projectFilePath": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Showcase-Contactpagina.csproj",
+  "expectedPackageFiles": [
+    "/Users/swendejong/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
