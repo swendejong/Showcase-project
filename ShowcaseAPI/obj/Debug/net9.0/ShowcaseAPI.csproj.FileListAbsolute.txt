@@ -191,3 +191,16 @@
 /Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.deps.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.runtimeconfig.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Vite/package-lock.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Vite/package.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.staticwebassets.runtime.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.staticwebassets.endpoints.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/ShowcaseAPI.staticwebassets.runtime.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.pdb
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net9.0/compressed/4zszphe248-keg3vlorvi.gz
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net9.0/ShowcaseAPI.sourcelink.json

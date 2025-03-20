@@ -5,27 +5,23 @@ var row = 0; // Current guess (attempt #)
 var col = 0; // Current letter for that attempt
 
 var gameOver = false;
-
 var word = "";
-console.log(word);
 
-async function getWordFromAPI() {
-    try {
-        let response = await fetch("https://localhost:7278/api/wordle/random"); // Adjust URL if needed
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        let data = await response.json();
-        word = data.word.toUpperCase(); // Store the fetched word
-        console.log("Fetched Word:", word);
-    } catch (error) {
-        console.error("Error fetching word:", error);
-        word = "ERROR"; // Fallback word if API fails
-    }
-}
+
 
 window.onload = async function () {
-    await getWordFromAPI()
+    const gameMode = localStorage.getItem("gameMode");  // Get game mode from localStorage
+    const opponentword = localStorage.getItem("word");
+    const gameCode = localStorage.getItem("gameCode");
+    const playerId = localStorage.getItem("playerId");
+
+
+    if (gameMode === "multiplayer") {
+        word = opponentword.toString().toUpperCase();
+    } else {
+        // For single-player, fetch a random word as usual
+        await getWordFromAPI();
+    }
     intialize();
 }
 
@@ -208,5 +204,22 @@ function disableKeyboard() {
         key.style.backgroundColor = '#ccc'; // Make keys look disabled
     });
 }
+async function getWordFromAPI() {
 
+    try {
+        let url = "https://localhost:7278/api/wordle/random"; // Single Player
 
+        let response = await fetch(url);
+        if (!response.ok) {
+            throw new Error("HTTP error! Status: ${response.status}");
+        }
+
+        let data = await response.json();
+
+        // Assuming the API returns { word: 'someword' }
+        word = data.word.toUpperCase();  // Accessing 'word' from response
+    } catch (error) {
+        console.error("Error fetching word:", error);
+        word = "ERROR"; // Fallback word if API fails
+    }
+}

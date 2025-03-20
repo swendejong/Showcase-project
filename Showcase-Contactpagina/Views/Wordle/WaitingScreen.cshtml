@@ -1,5 +1,7 @@
 @{
     ViewData["Title"] = "Waiting for Opponent";
+    var gameCode = TempData["GameCode"] as string;
+    var playerId = TempData["PlayerId"] as string;
 }
 
 <div class="wordle-title-container">
@@ -13,12 +15,52 @@
 
     <div class="game-code-container">
         <p>Your game code:</p>
-        <div class="game-code">@ViewData["GameCode"]</div>
+        <div class="game-code"><strong>@gameCode</strong></div>
     </div>
 
-    <div class="loading-indicator"></div>
+    <div class="loading-indicator">
 
+    </div>
     <div class="exit-button-container">
-        <a asp-controller="Wordle" asp-action="Index" class="exit-button">Cancel Game</a>
+        <a asp-controller="Wordle" asp-action="Index" class="exit-button" onclick="confirmCancel()">Cancel Game</a>
     </div>
 </div>
+
+<script>
+    var gameCode = '@gameCode';
+    var timeout = 60000;  // 1 minute timeout to wait for opponent
+    var checkInterval = 5000;  // Check every 5 seconds
+    localStorage.setItem("gameCode", "@gameCode");
+    localStorage.setItem("playerId", "@playerId");
+    // Timeout function when the game waits too long
+    var timeoutId = setTimeout(function() {
+        alert("Your opponent did not join in time. The game has been cancelled.");
+        window.location.href = '@Url.Action("Index", "Wordle")';  // Redirect to home page if timeout
+    }, timeout);
+
+    // Function to check if the opponent has joined
+    function checkOpponent() {
+        fetch(`https://localhost:7278/api/wordle/check-second-player/${gameCode}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.secondPlayerJoined) {
+                    clearTimeout(timeoutId);  // Clear the timeout if Player 2 has joined
+                    window.location.href = `/Wordle/ChooseWord?gameCode=${gameCode}`;  // Redirect to ChooseWord screen
+                }
+            })
+            .catch(error => {
+                console.error("Error checking opponent:", error);
+            });
+    }
+
+    // Start polling to check for opponent joining
+    var intervalId = setInterval(checkOpponent, checkInterval);
+
+    // Function to confirm the cancellation of the game
+    function confirmCancel() {
+        if (confirm("Are you sure you want to cancel the game?")) {
+            clearInterval(intervalId);  // Clear the polling interval
+            window.location.href = '@Url.Action("Index", "Wordle")';  // Redirect to home page
+        }
+    }
+</script>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShowcaseAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41e69cd02c27c88ddc2be2691f9611e124effbc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShowcaseAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShowcaseAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

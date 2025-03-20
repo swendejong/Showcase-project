@@ -8,20 +8,97 @@
 
 <div class="wordle-game-container">
     <div class="choose-word-text">
-        <p>Choose word for opponent player:</p>
+        <p>Choose a 5-letter word for your opponent:</p>
     </div>
 
-    <!-- Form for Player 1 to Choose Word -->
-    <form asp-controller="Wordle" asp-action="ChooseWord" method="post" class="choose-word-form">
-        <input type="text" name="player1Word" class="word-input" placeholder="Player 1 Word" required maxlength="5">
-        <button type="submit" class="choose-word-submit">Submit Word</button>
+    <form id="chooseWordForm" class="join-game-form">
+        <input type="hidden" id="gameCode" name="gameCode" value="@ViewBag.GameCode">
+        <input type="text" id="wordInput" name="playerWord" class="word-input" placeholder="Enter 5-letter word" required maxlength="5">
+        <button type="submit" class="join-game-submit">Submit Word</button>
     </form>
 
-    <div class="choose-word-text">
+    <div class="choose-word-text" id="waitingMessage" style="display: none;">
         <p>Waiting for the other player to choose their word...</p>
     </div>
-    
+
     <div class="exit-button-container">
         <button class="exit-button" onclick="window.location.href='@Url.Action("Index", "Wordle")'">Back</button>
     </div>
 </div>
+
+<script>
+    var gameCode = localStorage.getItem("gameCode");
+    var playerId = localStorage.getItem("playerId");
+    var gameMode = localStorage.getItem("gameMode");
+    var opponentWordSubmitted = false; 
+
+    // Log the game code and player ID to make sure they're correct
+
+    // Handle form submission
+    document.getElementById("chooseWordForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let playerWord = document.getElementById("wordInput").value.trim().toLowerCase();
+
+        // Log the word being entered
+
+        // Validate word
+        if (playerWord.length !== 5 || !/^[a-z]+$/.test(playerWord)) {
+            console.log("Invalid word entered. Word must be 5 letters and contain only lowercase letters.");
+            alert("Please enter a valid 5-letter word.");
+            return;
+        }
+
+        // Log the data that will be sent to the server
+
+        fetch('https://localhost:7278/api/wordle/submit-word', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ gameCode: gameCode, playerId: playerId, word: playerWord })
+        })
+            .then(response => {
+                if (!response.ok) {
+                    console.error("Error: " + response.statusText);
+                    return response.text().then(text => {
+                        console.error("Response Text:", text);  // Log the response body if there's an error
+                        return Promise.reject('Failed to submit word: ' + response.statusText);
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    document.getElementById("waitingMessage").style.display = "block";
+                    checkOpponentWord();  // Start polling to check if the opponent has submitted their word
+                } else {
+                    alert("Error submitting word.");
+                }
+            })
+            .catch(error => {
+                console.error("Error submitting word:", error);
+                alert("An error occurred. Please try again.");
+            });
+    });
+
+
+    // Function to check if the opponent has submitted their word
+    function checkOpponentWord() {
+        console.log("Polling to check if opponent has submitted their word...");
+        setInterval(function() {
+            fetch(`https://localhost:7278/api/wordle/check-opponent-word/${gameCode}?playerId=${playerId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.word) {
+                        opponentWordSubmitted = true;
+                        clearInterval(this); // Stop checking once the opponent submits their word
+                        localStorage.setItem("word", data.word);
+                        // Redirect to the GameScreen, passing the opponent's word via TempData
+                        window.location.href = '/Wordle/GameScreen'; 
+                    }
+                })
+                .catch(error => {
+                    console.error("Error checking opponent's word:", error);
+                });
+        }, 3000);  // Check every 3 seconds
+    }
+</script>

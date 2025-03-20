@@ -104,4 +104,5 @@
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/ref/Showcase-Contactpagina.dll
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-vx94coeoa2.gz
-/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-m5x76qsdko.gz
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/Showcase-Contactpagina.sourcelink.json
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz

@@ -282,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m5x76qsdko</Fingerprint>
-      <Integrity>Zu5Is9ZmBF2X8sG9xJJy+RBJWb/FoNGZjBWTAEbeZ08=</Integrity>
+      <Fingerprint>rus9huxjvd</Fingerprint>
+      <Integrity>rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\wordle.js'))</OriginalItemSpec>

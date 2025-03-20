@@ -11,17 +11,58 @@
         <p>Enter the game code to join:</p>
     </div>
 
-    <form asp-controller="Wordle" asp-action="JoinGame" method="post" class="join-game-form">
-        <input type="text" name="gameCode" class="game-code-input" placeholder="Enter code" required>
+    <form id="joinGameForm" method="post" class="join-game-form">
+        <input type="text" id="gameCode" name="gameCode" class="game-code-input" placeholder="Enter code" required>
         <button type="submit" class="join-game-submit">Join Game</button>
     </form>
 
-    @if (ViewData["ErrorMessage"] != null)
-    {
-        <p class="error-message">@ViewData["ErrorMessage"]</p>
-    }
+    <div id="errorMessage" class="error-message" style="display:none;">
+        <!-- Error message will be inserted dynamically here -->
+    </div>
 
     <div class="exit-button-container">
         <button class="exit-button" onclick="window.location.href='@Url.Action("Index", "Wordle")'">Back</button>
     </div>
 </div>
+
+<script>
+    document.getElementById("joinGameForm").addEventListener("submit", async function(event) {
+        event.preventDefault();
+
+        let gameCode = document.getElementById("gameCode").value.trim();
+
+        // Validate game code format
+        if (gameCode.length !== 6 || !/^[A-Z0-9]+$/.test(gameCode)) {
+            document.getElementById("errorMessage").textContent = "Please enter a valid 6-character alphanumeric game code.";
+            document.getElementById("errorMessage").style.display = "block";
+            return;
+        }
+
+        try {
+            // Call API to join the game
+            const response = await fetch('https://localhost:7278/api/wordle/join', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ gameCode })
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+
+                // Store game code and playerId in localStorage
+                localStorage.setItem("gameCode", gameCode);
+                localStorage.setItem("playerId", data?.playerId);
+
+                // Redirect to the Choose Word screen
+                window.location.href = '/Wordle/ChooseWord';
+            } else {
+                const errorData = await response.json();
+                alert(errorData.message || "Game not found or already full.");
+            }
+        } catch (error) {
+            console.error('Error joining game:', error);
+            alert("An error occurred. Please try again.");
+        }
+    });
+
+</script>

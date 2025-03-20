@@ -6,19 +6,31 @@
     <h1 class="wordle-title">Wordle</h1>
 </div>
 
-
 <div class="wordle-game-container">
     <div class="welcome-text">
         <p>Welcome to Wordle! Choose your game mode and start playing!</p>
     </div>
 
     <div class="buttons-container">
-        <a asp-controller="Wordle" asp-action="SinglePlayer" class="single-player-button">Single Player</a>
-        <a asp-controller="Wordle" asp-action="CreateGame" class="create-game-button">Create Game</a>
-        <a asp-controller="Wordle" asp-action="JoinGame" class="join-game-button">Join Game</a>
+        <a href="@Url.Action("SinglePlayer", "Wordle")" class="single-player-button" onclick="setGameMode('single')">Single Player</a>
+        <form method="post" asp-action="CreateGame">
+            <button type="submit" class="create-game-button" onclick="setGameMode('multiplayer')">Create online Game</button>
+        </form>
+        <a href="@Url.Action("JoinGame", "Wordle")" class="join-game-button" onclick="setGameMode('multiplayer')">Join online Game</a>
     </div>
 
     <div class="exit-button-container">
-        <a asp-controller="Home" asp-action="Index" class="exit-button">Exit</a>
+        <a asp-controller="Home" asp-action="Index" class="exit-button" onclick="clearGameMode()">Exit</a>
     </div>
 </div>
+
+<script>
+
+function setGameMode(mode) {
+        localStorage.setItem("gameMode", mode);
+    }
+    
+    function clearGameMode() {
+        localStorage.removeItem("gameMode");
+    }
+</script>
