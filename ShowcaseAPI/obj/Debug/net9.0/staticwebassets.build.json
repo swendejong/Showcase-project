@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8rpjuXsbV7OMKTFNqJR5Heaj0PebfeXMmb4qpjXriIE=",
+  "Hash": "FShoZpRltrroVWSCTZvsTv8UllvmrzCHBAspUJKBbE8=",
   "Source": "ShowcaseAPI",
   "BasePath": "_content/ShowcaseAPI",
   "Mode": "Default",
@@ -365,12 +365,12 @@
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/a9wdu6s4o1-oj2c26m4c0.gz"
     },
     {
-      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz",
+      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz",
       "SourceId": "Showcase-Contactpagina",
       "SourceType": "Project",
       "ContentRoot": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Showcase-Contactpagina",
-      "RelativePath": "js/wordle#[.{fingerprint=rus9huxjvd}]?.js.gz",
+      "RelativePath": "js/wordle#[.{fingerprint=zct8zwi0t4}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -379,11 +379,11 @@
       "RelatedAsset": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1gqcdy1mwi",
-      "Integrity": "H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE=",
+      "Fingerprint": "vw7j9ed4to",
+      "Integrity": "MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz"
+      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz"
     },
     {
       "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bi394kpt7g-3rhuph8gc2.gz",
@@ -722,12 +722,12 @@
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i0x34quo4m-8inm30yfxf.gz"
     },
     {
-      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz",
+      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz",
       "SourceId": "Showcase-Contactpagina",
       "SourceType": "Project",
       "ContentRoot": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Showcase-Contactpagina",
-      "RelativePath": "css/WordleGame#[.{fingerprint=cnx7mf3qbp}]?.css.gz",
+      "RelativePath": "css/WordleGame#[.{fingerprint=6zqamd0zc7}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -736,11 +736,11 @@
       "RelatedAsset": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/WordleGame.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "w9f2y1244s",
-      "Integrity": "1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o=",
+      "Fingerprint": "yjnprouhnj",
+      "Integrity": "gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz"
+      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz"
     },
     {
       "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/ikpk9zw517-agp80tu62r.gz",
@@ -1618,8 +1618,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cnx7mf3qbp",
-      "Integrity": "GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M=",
+      "Fingerprint": "6zqamd0zc7",
+      "Integrity": "EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/WordleGame.css"
@@ -1807,8 +1807,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rus9huxjvd",
-      "Integrity": "rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=",
+      "Fingerprint": "zct8zwi0t4",
+      "Integrity": "o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js"
@@ -4843,13 +4843,13 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/WordleGame.cnx7mf3qbp.css",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz",
+      "Route": "_content/Showcase-Contactpagina/css/WordleGame.6zqamd0zc7.css",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000654022237"
+          "Quality": "0.000638977636"
         }
       ],
       "ResponseHeaders": [
@@ -4867,15 +4867,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1528"
+          "Value": "1564"
         },
         {
           "Name": "ETag",
-          "Value": "\"1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o=\""
+          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:44:42 GMT"
+          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
         },
         {
           "Name": "Vary",
@@ -4887,17 +4887,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M=\""
+          "Value": "W/\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cnx7mf3qbp"
+          "Value": "6zqamd0zc7"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M="
+          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
         },
         {
           "Name": "label",
@@ -4906,7 +4906,7 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/WordleGame.cnx7mf3qbp.css",
+      "Route": "_content/Showcase-Contactpagina/css/WordleGame.6zqamd0zc7.css",
       "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/WordleGame.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4920,7 +4920,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6173"
+          "Value": "7649"
         },
         {
           "Name": "Content-Type",
@@ -4928,21 +4928,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M=\""
+          "Value": "\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:44:42 GMT"
+          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cnx7mf3qbp"
+          "Value": "6zqamd0zc7"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M="
+          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
         },
         {
           "Name": "label",
@@ -4951,8 +4951,8 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/WordleGame.cnx7mf3qbp.css.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz",
+      "Route": "_content/Showcase-Contactpagina/css/WordleGame.6zqamd0zc7.css.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4969,7 +4969,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1528"
+          "Value": "1564"
         },
         {
           "Name": "Content-Type",
@@ -4977,11 +4977,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o=\""
+          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:44:42 GMT"
+          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
         },
         {
           "Name": "Vary",
@@ -4991,11 +4991,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cnx7mf3qbp"
+          "Value": "6zqamd0zc7"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o="
+          "Value": "sha256-gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo="
         },
         {
           "Name": "label",
@@ -5005,12 +5005,12 @@
     },
     {
       "Route": "_content/Showcase-Contactpagina/css/WordleGame.css",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000654022237"
+          "Quality": "0.000638977636"
         }
       ],
       "ResponseHeaders": [
@@ -5028,15 +5028,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1528"
+          "Value": "1564"
         },
         {
           "Name": "ETag",
-          "Value": "\"1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o=\""
+          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:44:42 GMT"
+          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
         },
         {
           "Name": "Vary",
@@ -5048,13 +5048,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M=\""
+          "Value": "W/\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M="
+          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
         }
       ]
     },
@@ -5073,7 +5073,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6173"
+          "Value": "7649"
         },
         {
           "Name": "Content-Type",
@@ -5081,23 +5081,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M=\""
+          "Value": "\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:44:42 GMT"
+          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M="
+          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
         }
       ]
     },
     {
       "Route": "_content/Showcase-Contactpagina/css/WordleGame.css.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-cnx7mf3qbp.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5114,7 +5114,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1528"
+          "Value": "1564"
         },
         {
           "Name": "Content-Type",
@@ -5122,11 +5122,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o=\""
+          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:44:42 GMT"
+          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
         },
         {
           "Name": "Vary",
@@ -5136,7 +5136,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1N+OT4Lg/nlyoI7EKjHZ5VRo3tObf6fm9eUQr1OJZ+o="
+          "Value": "sha256-gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo="
         }
       ]
     },
@@ -6446,12 +6446,12 @@
     },
     {
       "Route": "_content/Showcase-Contactpagina/js/wordle.js",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000404858300"
+          "Quality": "0.000479616307"
         }
       ],
       "ResponseHeaders": [
@@ -6469,15 +6469,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2469"
+          "Value": "2084"
         },
         {
           "Name": "ETag",
-          "Value": "\"H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE=\""
+          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:07:20 GMT"
+          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
         },
         {
           "Name": "Vary",
@@ -6489,13 +6489,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=\""
+          "Value": "W/\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE="
+          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
         }
       ]
     },
@@ -6514,7 +6514,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8652"
+          "Value": "7020"
         },
         {
           "Name": "Content-Type",
@@ -6522,23 +6522,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=\""
+          "Value": "\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:07:20 GMT"
+          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE="
+          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
         }
       ]
     },
     {
       "Route": "_content/Showcase-Contactpagina/js/wordle.js.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6555,7 +6555,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2469"
+          "Value": "2084"
         },
         {
           "Name": "Content-Type",
@@ -6563,11 +6563,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE=\""
+          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:07:20 GMT"
+          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
         },
         {
           "Name": "Vary",
@@ -6577,18 +6577,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE="
+          "Value": "sha256-MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI="
         }
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.rus9huxjvd.js",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz",
+      "Route": "_content/Showcase-Contactpagina/js/wordle.zct8zwi0t4.js",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000404858300"
+          "Quality": "0.000479616307"
         }
       ],
       "ResponseHeaders": [
@@ -6606,15 +6606,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2469"
+          "Value": "2084"
         },
         {
           "Name": "ETag",
-          "Value": "\"H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE=\""
+          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:07:20 GMT"
+          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
         },
         {
           "Name": "Vary",
@@ -6626,17 +6626,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=\""
+          "Value": "W/\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rus9huxjvd"
+          "Value": "zct8zwi0t4"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE="
+          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
         },
         {
           "Name": "label",
@@ -6645,7 +6645,7 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.rus9huxjvd.js",
+      "Route": "_content/Showcase-Contactpagina/js/wordle.zct8zwi0t4.js",
       "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6659,7 +6659,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8652"
+          "Value": "7020"
         },
         {
           "Name": "Content-Type",
@@ -6667,21 +6667,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=\""
+          "Value": "\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:07:20 GMT"
+          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rus9huxjvd"
+          "Value": "zct8zwi0t4"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE="
+          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
         },
         {
           "Name": "label",
@@ -6690,8 +6690,8 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.rus9huxjvd.js.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-rus9huxjvd.gz",
+      "Route": "_content/Showcase-Contactpagina/js/wordle.zct8zwi0t4.js.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6708,7 +6708,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2469"
+          "Value": "2084"
         },
         {
           "Name": "Content-Type",
@@ -6716,11 +6716,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE=\""
+          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:07:20 GMT"
+          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
         },
         {
           "Name": "Vary",
@@ -6730,11 +6730,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rus9huxjvd"
+          "Value": "zct8zwi0t4"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H2rvC6YKZgDER9wrefuxaklzFu6gB5OkzaSN4TOj0wE="
+          "Value": "sha256-MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI="
         },
         {
           "Name": "label",

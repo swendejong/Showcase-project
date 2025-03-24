@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cnx7mf3qbp</Fingerprint>
-      <Integrity>GMi3zf0PP5R2rE+f44IOpt77gfOiZgZ2vkLsjd6kf4M=</Integrity>
+      <Fingerprint>6zqamd0zc7</Fingerprint>
+      <Integrity>EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\WordleGame.css'))</OriginalItemSpec>
@@ -282,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rus9huxjvd</Fingerprint>
-      <Integrity>rUxzf0H8MA+xlYYuHQpz8r7EMmCFUPhIZRLBF2M5RFE=</Integrity>
+      <Fingerprint>zct8zwi0t4</Fingerprint>
+      <Integrity>o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\wordle.js'))</OriginalItemSpec>

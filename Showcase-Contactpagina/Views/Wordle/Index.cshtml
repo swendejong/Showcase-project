@@ -12,15 +12,27 @@
     </div>
 
     <div class="buttons-container">
-        <a href="@Url.Action("SinglePlayer", "Wordle")" class="single-player-button" onclick="setGameMode('single')">Single Player</a>
-        <form method="post" asp-action="CreateGame">
-            <button type="submit" class="create-game-button" onclick="setGameMode('multiplayer')">Create online Game</button>
+        <!-- Single Player Button -->
+        <form method="get" action="@Url.Action("SinglePlayer", "Wordle")" class="singleplayer-game-form">
+            <button action="@Url.Action("SinglePlayer", "Wordle")" type="submit" class="single-player-button" onclick="setGameMode('single')">Single Player</button>
         </form>
-        <a href="@Url.Action("JoinGame", "Wordle")" class="join-game-button" onclick="setGameMode('multiplayer')">Join online Game</a>
+
+        <!-- Create Online Game Button (Already a Form) -->
+        <form method="post" asp-action="CreateGame" class="create-game-form">
+            <button type="submit" class="create-game-button" onclick="setGameMode('multiplayer')">Create Online game</button>
+        </form>
+
+        <!-- Join Online Game Button -->
+        <form method="get" action="@Url.Action("JoinGame", "Wordle")" class="join-game-form">
+            <button type="submit" class="join-game-button" onclick="setGameMode('multiplayer')">Join Online Game</button>
+        </form>
     </div>
 
+    <!-- Exit Button -->
     <div class="exit-button-container">
-        <a asp-controller="Home" asp-action="Index" class="exit-button" onclick="clearGameMode()">Exit</a>
+        <form method="get" action="@Url.Action("Index", "Home")" class="exit-game-form">
+            <button type="submit" class="exit-button" onclick="clearGameMode()">Exit</button>
+        </form>
     </div>
 </div>
 

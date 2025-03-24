@@ -93,6 +93,97 @@
     transform: scale(1.05); /* Slight scale up for the hover effect */
 }
 
+.create-game-form {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #26874E;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 120px;
+}
+
+.create-game-form:hover {
+    background-color: #1d6e3c; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slight scale up for the hover effect */ 
+}
+
+.join-game-form {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fcd404;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 120px;
+}
+
+.join-game-form:hover {
+    background-color: #e0b800; /* Slightly darker yellow on hover */
+    transform: scale(1.05); /* Slight scale up for the hover effect */ 
+}
+
+.singleplayer-game-form {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #73c883;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 120px;
+}
+
+.singleplayer-game-form:hover {
+    background-color: #5ea568; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slight scale up for the hover effect */ 
+}
+
+.exit-game-form {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: black;
+    transition: background-color 0.3s;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: 120px;
+}
+ .exit-game-form:hover {
+     background-color: #c82333;
+     transform: scale(1.05); 
+ }
+
 .join-game-button {
     padding: 20px 20px;
     font-size: 1.5rem;
@@ -275,4 +366,3 @@
     border-color: #26874e;
     box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
 }
-
