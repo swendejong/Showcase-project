@@ -115,6 +115,17 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Connections.Abstractions/9.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Features": "9.0.3"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11220"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.0-rc.2.23480.2": {},
       "Microsoft.AspNetCore.DataProtection/8.0.0-rc.2.23480.2": {
         "dependencies": {
@@ -128,6 +139,18 @@
         }
       },
       "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.0-rc.2.23480.2": {},
+      "Microsoft.AspNetCore.SignalR.Common/9.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "9.0.3",
+          "Microsoft.Extensions.Options": "9.0.3"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.SignalR.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11220"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -600,6 +623,14 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
           "Microsoft.Extensions.Options": "9.0.3",
           "System.Diagnostics.DiagnosticSource": "8.0.0-rc.2.23479.6"
+        }
+      },
+      "Microsoft.Extensions.Features/9.0.3": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Features.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11220"
+          }
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0-rc.2.23479.6": {
@@ -1321,6 +1352,7 @@
       "System.Threading.Tasks.Extensions/4.5.2": {},
       "Showcase-Contactpagina/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "9.0.3",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -1387,6 +1419,13 @@
       "path": "microsoft.aspnetcore.authentication.openidconnect/8.0.3",
       "hashPath": "microsoft.aspnetcore.authentication.openidconnect.8.0.3.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Connections.Abstractions/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MWkNy/Yhv2q5ZVYPHjHN6pEE5Ya1r4opqSpnsW60bgpDOT54zZ6Kpqub4Tcat8ENsR5PZcTZ3eeSAthweUb/KA==",
+      "path": "microsoft.aspnetcore.connections.abstractions/9.0.3",
+      "hashPath": "microsoft.aspnetcore.connections.abstractions.9.0.3.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.0-rc.2.23480.2": {
       "type": "package",
       "serviceable": true,
@@ -1407,6 +1446,13 @@
       "sha512": "sha512-o18JeO/ObzhorRbkScBue+RiVWB0A47o664WyCMdgXvHzjy3ZqYVPEuH3LvtTeP1qfqCLYZBbWSUEN0Hy9WGuA==",
       "path": "microsoft.aspnetcore.dataprotection.abstractions/8.0.0-rc.2.23480.2",
       "hashPath": "microsoft.aspnetcore.dataprotection.abstractions.8.0.0-rc.2.23480.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Common/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/568tq8YVas1mDgeScmQdQV4ZDRjdyqDS3rAo17R5Bs4puMaNM80wQSwcvsmN5gSwH6L/XRTmD1J1uRIyKXrCg==",
+      "path": "microsoft.aspnetcore.signalr.common/9.0.3",
+      "hashPath": "microsoft.aspnetcore.signalr.common.9.0.3.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
@@ -1589,6 +1635,13 @@
       "sha512": "sha512-AuJAzE869SAnztIP7RNCKaihJpCKajS519g+Nmd7CorXc6Y559ygx/nm9JVCAm8cGEbedPhCyvTIkWnCsLV1GA==",
       "path": "microsoft.extensions.diagnostics.abstractions/8.0.0-rc.2.23479.6",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Features/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jZuO3APLh0ePwtT9PDxiMdPwpDdct/kuExlXLCZZ+XFje/Xt815MM827EFJuxTBAbL148ywyfJyjIZ92osP5WA==",
+      "path": "microsoft.extensions.features/9.0.3",
+      "hashPath": "microsoft.extensions.features.9.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0-rc.2.23479.6": {
       "type": "package",

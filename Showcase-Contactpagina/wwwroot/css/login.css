@@ -1,0 +1,84 @@
+/* Background for the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #aaf0d1; /* Light greenish background */
+}
+
+/* Container for the login form */
+.login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Form width */
+}
+
+/* Login page title */
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #26874E; /* Green color */
+    margin-bottom: 20px;
+}
+
+/* Style for input fields */
+.login-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #26874E; /* Green border */
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Input fields focus state */
+.login-input:focus {
+    border-color: #ffb3b3; /* Light pink focus border */
+    outline: none;
+}
+
+/* Style for the login button */
+.login-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: #26874E; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the login button */
+.login-button:hover {
+    background-color: #1d6e3c; /* Darker green on hover */
+}
+
+/* Link for redirecting to registration page or forgot password */
+.login-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #26874E; /* Green text */
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}

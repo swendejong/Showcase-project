@@ -67,7 +67,6 @@
 }
 
 .single-player-button:hover {
-    background-color: #5ea568; /* Slightly darker green on hover */
     transform: scale(1.05); /* Slight scale up for the hover effect */
 }
 
@@ -89,7 +88,6 @@
 }
 
 .create-game-button:hover {
-    background-color: #1d6e3c; /* Slightly darker green on hover */
     transform: scale(1.05); /* Slight scale up for the hover effect */
 }
 
@@ -112,7 +110,6 @@
 }
 
 .create-game-form:hover {
-    background-color: #1d6e3c; /* Slightly darker green on hover */
     transform: scale(1.05); /* Slight scale up for the hover effect */ 
 }
 
@@ -135,7 +132,6 @@
 }
 
 .join-game-form:hover {
-    background-color: #e0b800; /* Slightly darker yellow on hover */
     transform: scale(1.05); /* Slight scale up for the hover effect */ 
 }
 
@@ -158,7 +154,6 @@
 }
 
 .singleplayer-game-form:hover {
-    background-color: #5ea568; /* Slightly darker green on hover */
     transform: scale(1.05); /* Slight scale up for the hover effect */ 
 }
 
@@ -180,7 +175,6 @@
     height: 120px;
 }
  .exit-game-form:hover {
-     background-color: #c82333;
      transform: scale(1.05); 
  }
 
@@ -201,7 +195,6 @@
 }
 
 .join-game-button:hover {
-    background-color: #e0b800; /* Slightly darker yellow on hover */
     transform: scale(1.05); /* Slight scale up for the hover effect */
 }
 
@@ -231,9 +224,32 @@
 }
 
 .exit-button:hover {
-    background-color: #c82333;
     transform: scale(1.05);
 }
+
+
+/* Position the login icon in the top-right corner */
+.login-icon-container {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+/* Style the button with the icon */
+.login-icon-button {
+    background: transparent;
+    border: none;
+    font-size: 24px; /* Adjust the size of the icon */
+    cursor: pointer;
+    color: #333; /* Icon color */
+    padding: 10px;
+}
+
+/* Optional: Change color on hover */
+.login-icon-button:hover {
+    transform: scale(1.10); 
+}
+
 /* Waiting Screen Styles */
 .waiting-text {
     font-size: 1.3rem;

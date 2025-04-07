@@ -204,3 +204,6 @@
 /Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Showcase-Contactpagina.pdb
 /Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net9.0/compressed/4zszphe248-keg3vlorvi.gz
 /Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/obj/Debug/net9.0/ShowcaseAPI.sourcelink.json
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/ShowcaseAPI/bin/Debug/net9.0/Microsoft.Extensions.Features.dll

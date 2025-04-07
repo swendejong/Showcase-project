@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Login - Wordle";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/login.css"> 
+</head>
+<body>
+
+<!-- Login Container -->
+<div class="login-container">
+    <div class="login-form">
+        <h2 class="login-title">Login</h2>
+
+        <!-- Login Form -->
+        @using (Html.BeginForm("Login", "Wordle", FormMethod.Post))
+        {
+            <!-- Username or Email Field -->
+            <input type="text" class="login-input" placeholder="Username or Email" name="Username" required />
+
+            <!-- Password Field -->
+            <input type="password" class="login-input" placeholder="Password" name="Password" required />
+
+            <!-- Error Message (optional) -->
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="error-message">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+
+            <!-- Login Button -->
+            <button type="submit" class="login-button">Login</button>
+        }
+
+        <a href="@Url.Action("Register", "Wordle")" class="login-link">Create an Account</a>
+    </div>
+</div>
+
+</body>
+</html>

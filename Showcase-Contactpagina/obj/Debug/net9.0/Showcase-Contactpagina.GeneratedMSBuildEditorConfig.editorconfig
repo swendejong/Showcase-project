@@ -60,6 +60,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL0pvaW5HYW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/Views/Wordle/WaitingScreen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yZGxlL1dhaXRpbmdTY3JlZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

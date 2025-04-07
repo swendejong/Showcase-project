@@ -7,14 +7,16 @@ var col = 0; // Current letter for that attempt
 var gameOver = false;
 var word = "";
 
-
+var gameMode = "";
+var gameCode;
+var playerId;
+var pollingInterval;  // Store polling interval to clear it when game ends
 
 window.onload = async function () {
-    const gameMode = localStorage.getItem("gameMode");  // Get game mode from localStorage
+    gameMode = localStorage.getItem("gameMode");
     const opponentword = localStorage.getItem("word");
-    const gameCode = localStorage.getItem("gameCode");
-    const playerId = localStorage.getItem("playerId");
-
+    gameCode = localStorage.getItem("gameCode");
+    playerId = localStorage.getItem("playerId");
 
     if (gameMode === "multiplayer") {
         word = opponentword.toString().toUpperCase();
@@ -86,6 +88,22 @@ function intialize() {
     document.addEventListener("keyup", (e) => {
         processInput(e);
     })
+
+    if (gameMode === "multiplayer") {
+        startPollingOpponentProgress(gameCode, playerId)
+        document.getElementById("opponent-tracker-wrapper").style.display = "block";
+
+        const tracker = document.getElementById("opponent-tracker");
+        tracker.innerHTML = ""; // Clear if reloaded
+
+        for (let i = 0; i < height; i++) {
+            let tile = document.createElement("div");
+            tile.classList.add("tracker-tile");
+            tile.id = "opponent-guess-" + i;
+            tracker.appendChild(tile);
+        }
+    }
+
 }
 
 function processKey() {
@@ -117,8 +135,13 @@ function processInput(e) {
     if (!gameOver && row == height) {
         gameOver = true;
         document.getElementById("answer").innerText = word;
+        stopPolling(); // Stop polling when the game is over
     }
 }
+
+let progress = [0, 0, 0, 0, 0, 0]; // Progress array
+let opponentProgress;
+let currentGuessIndex = 0; // Keeps track of which guess we're on
 
 function update() {
     let guess = "";
@@ -170,6 +193,14 @@ function update() {
         gameOver = true;
         document.getElementById("answer").innerText = "You Win!"; // Show win message
         disableKeyboard(); // Disable keyboard so no more input is allowed
+        if (gameMode === "multiplayer") {
+            progress[currentGuessIndex] = 2;
+            sendProgressToAPI().then(() => {
+                // Handle any logic after the progress is sent
+            }).catch((error) => {
+                console.error("Error sending progress:", error);
+            });
+        }
         return;
     }
 
@@ -192,8 +223,69 @@ function update() {
         }
     }
 
+    if (gameMode === "multiplayer") {
+        progress[currentGuessIndex] = 1;
+        currentGuessIndex++;
+        sendProgressToAPI().then(() => {
+            // Handle any logic after the progress is sent
+        }).catch((error) => {
+            console.error("Error sending progress:", error);
+        });
+    }
+
+
     row += 1; // Start new row
     col = 0; // Start at 0 for new row
+}
+
+async function startPollingOpponentProgress(gameCode, playerId) {
+    async function poll() {
+        try {
+            const response = await fetch(`https://localhost:7278/api/wordle/progress?gameCode=${gameCode}&playerId=${playerId}`);
+            if (response.ok) {
+                const data = await response.json();
+                if (data && data.opponentProgress) {
+                    updateOpponentTracker(data.opponentProgress);
+                    opponentProgress = data.opponentProgress;
+
+                    // Check if both players have finished
+                    if (checkIfGameFinished(progress) && checkIfGameFinished(opponentProgress)) {
+                        gameOver = true; // Game over if both are finished
+                        document.getElementById("answer").innerText = "Game Over";
+                        setTimeout(5000)
+                        stopPolling(); // Stop polling
+                        disableKeyboard(); // Disable the keyboard
+                    }
+                }
+            }
+        } catch (err) {
+            console.error("Error polling opponent progress:", err);
+        }
+    }
+
+    pollingInterval = setInterval(poll, 1500); // Start polling every 1.5 sec
+}
+
+function checkIfGameFinished(progressArray) {
+    return progressArray.includes(2); // Return true if there's a '2', meaning the game is finished
+}
+
+function stopPolling() {
+    clearInterval(pollingInterval); // Stop the polling when game is over or won
+}
+
+// Update opponent progress tracker
+function updateOpponentTracker(progressArray) {
+    for (let i = 0; i < progressArray.length; i++) {
+        const tile = document.getElementById("opponent-guess-" + i);
+        tile.classList.remove("progress-0", "progress-1", "progress-2"); // clear old
+
+        if (progressArray[i] === 1) {
+            tile.classList.add("progress-1");
+        } else if (progressArray[i] === 2) {
+            tile.classList.add("progress-2");
+        }
+    }
 }
 
 // Disable the keyboard (prevent further input)
@@ -204,8 +296,32 @@ function disableKeyboard() {
         key.style.backgroundColor = '#ccc'; // Make keys look disabled
     });
 }
-async function getWordFromAPI() {
 
+async function sendProgressToAPI() {
+    const body = {
+        gameCode: gameCode,
+        playerId: playerId,
+        progress: progress
+    };
+
+    try {
+        const response = await fetch("https://localhost:7278/api/wordle/progress/update", { // Updated URL
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
+
+        if (!response.ok) {
+            console.error("Error sending progress to server:", response.status);
+        }
+    } catch (error) {
+        console.error("Failed to send progress:", error);
+    }
+}
+
+async function getWordFromAPI() {
     try {
         let url = "https://localhost:7278/api/wordle/random"; // Single Player
 
@@ -215,8 +331,6 @@ async function getWordFromAPI() {
         }
 
         let data = await response.json();
-
-        // Assuming the API returns { word: 'someword' }
         word = data.word.toUpperCase();  // Accessing 'word' from response
     } catch (error) {
         console.error("Error fetching word:", error);

@@ -102,7 +102,14 @@
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/Showcase-Contactpagina.pdb
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/Showcase-Contactpagina.genruntimeconfig.cache
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/ref/Showcase-Contactpagina.dll
-/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-vx94coeoa2.gz
 /Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/Showcase-Contactpagina.sourcelink.json
-/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-zct8zwi0t4.gz
-/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-6zqamd0zc7.gz
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/97s46oz21f-s1w1dw6iow.gz
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/i6j26aii5v-ke1uwwqqac.gz
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net9.0/Microsoft.Extensions.Features.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz
+/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz

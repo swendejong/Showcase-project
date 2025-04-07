@@ -17,7 +17,7 @@
             <button action="@Url.Action("SinglePlayer", "Wordle")" type="submit" class="single-player-button" onclick="setGameMode('single')">Single Player</button>
         </form>
 
-        <!-- Create Online Game Button (Already a Form) -->
+        <!-- Create Online Game Button -->
         <form method="post" asp-action="CreateGame" class="create-game-form">
             <button type="submit" class="create-game-button" onclick="setGameMode('multiplayer')">Create Online game</button>
         </form>
@@ -36,13 +36,25 @@
     </div>
 </div>
 
-<script>
+<!-- Login Icon Button -->
+<div class="login-icon-container">
+    <form method="get" action="@Url.Action("Login", "Wordle")" class="login-form">
+        <button type="submit" class="login-icon-button">
+            <i class="fas fa-user"></i> <!-- FontAwesome user icon -->
+        </button>
+    </form>
+</div>
 
-function setGameMode(mode) {
+<script>
+    function setGameMode(mode) {
         localStorage.setItem("gameMode", mode);
     }
-    
+
     function clearGameMode() {
         localStorage.removeItem("gameMode");
     }
 </script>
+
+<!-- Include FontAwesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+

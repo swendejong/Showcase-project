@@ -615,174 +615,13 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/WordleGame.6zqamd0zc7.css",
-      "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000638977636"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1564"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6zqamd0zc7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/css/WordleGame.css"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/css/WordleGame.6zqamd0zc7.css",
-      "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7649"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6zqamd0zc7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/css/WordleGame.css"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/css/WordleGame.6zqamd0zc7.css.gz",
-      "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1564"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6zqamd0zc7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/css/WordleGame.css.gz"
-        }
-      ]
-    },
-    {
       "Route": "_content/Showcase-Contactpagina/css/WordleGame.css",
       "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000638977636"
+          "Quality": "0.000593824228"
         }
       ],
       "ResponseHeaders": [
@@ -800,7 +639,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1564"
+          "Value": "1683"
         },
         {
           "Name": "Content-Type",
@@ -808,15 +647,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
+          "Value": "\"ZhhFUQN9DZ1awjAkuR/LBX7lU4oWwuqoK0CZ+VtswT0=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
+          "Value": "W/\"ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
+          "Value": "Mon, 07 Apr 2025 18:10:02 GMT"
         },
         {
           "Name": "Vary",
@@ -826,7 +665,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
+          "Value": "sha256-ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI="
         }
       ]
     },
@@ -845,7 +684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7649"
+          "Value": "8327"
         },
         {
           "Name": "Content-Type",
@@ -853,17 +692,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=\""
+          "Value": "\"ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
+          "Value": "Mon, 07 Apr 2025 18:10:02 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ="
+          "Value": "sha256-ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI="
         }
       ]
     },
@@ -886,7 +725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1564"
+          "Value": "1683"
         },
         {
           "Name": "Content-Type",
@@ -894,11 +733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo=\""
+          "Value": "\"ZhhFUQN9DZ1awjAkuR/LBX7lU4oWwuqoK0CZ+VtswT0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 12:42:42 GMT"
+          "Value": "Mon, 07 Apr 2025 18:10:02 GMT"
         },
         {
           "Name": "Vary",
@@ -908,7 +747,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gkFBhLoZMorrmrH8XPv4fmU5PWNHFwOuIXqRkeW0czo="
+          "Value": "sha256-ZhhFUQN9DZ1awjAkuR/LBX7lU4oWwuqoK0CZ+VtswT0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/WordleGame.ke1uwwqqac.css",
+      "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000593824228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZhhFUQN9DZ1awjAkuR/LBX7lU4oWwuqoK0CZ+VtswT0=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:10:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ke1uwwqqac"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/WordleGame.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/WordleGame.ke1uwwqqac.css",
+      "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:10:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ke1uwwqqac"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/WordleGame.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/WordleGame.ke1uwwqqac.css.gz",
+      "AssetFile": "_content/Showcase-Contactpagina/css/WordleGame.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZhhFUQN9DZ1awjAkuR/LBX7lU4oWwuqoK0CZ+VtswT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:10:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ke1uwwqqac"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZhhFUQN9DZ1awjAkuR/LBX7lU4oWwuqoK0CZ+VtswT0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/WordleGame.css.gz"
         }
       ]
     },
@@ -1807,6 +1807,304 @@
       ]
     },
     {
+      "Route": "_content/Showcase-Contactpagina/css/login.css",
+      "AssetFile": "_content/Showcase-Contactpagina/css/login.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001488095238"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KyNqC+y0eVDQPnJVtjIVsDYlE3X6Bw3hVHZFLK606e8=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:22:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/login.css",
+      "AssetFile": "_content/Showcase-Contactpagina/css/login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:22:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/login.css.gz",
+      "AssetFile": "_content/Showcase-Contactpagina/css/login.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KyNqC+y0eVDQPnJVtjIVsDYlE3X6Bw3hVHZFLK606e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:22:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KyNqC+y0eVDQPnJVtjIVsDYlE3X6Bw3hVHZFLK606e8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/login.s1w1dw6iow.css",
+      "AssetFile": "_content/Showcase-Contactpagina/css/login.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001488095238"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KyNqC+y0eVDQPnJVtjIVsDYlE3X6Bw3hVHZFLK606e8=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:22:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s1w1dw6iow"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/login.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/login.s1w1dw6iow.css",
+      "AssetFile": "_content/Showcase-Contactpagina/css/login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:22:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s1w1dw6iow"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/login.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/login.s1w1dw6iow.css.gz",
+      "AssetFile": "_content/Showcase-Contactpagina/css/login.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KyNqC+y0eVDQPnJVtjIVsDYlE3X6Bw3hVHZFLK606e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 18:22:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s1w1dw6iow"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KyNqC+y0eVDQPnJVtjIVsDYlE3X6Bw3hVHZFLK606e8="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/login.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "_content/Showcase-Contactpagina/css/profielpagina.35n854cy53.css",
       "AssetFile": "_content/Showcase-Contactpagina/css/profielpagina.css.gz",
       "Selectors": [
@@ -2409,7 +2707,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001240694789"
+          "Quality": "0.001097694841"
         }
       ],
       "ResponseHeaders": [
@@ -2427,7 +2725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "805"
+          "Value": "910"
         },
         {
           "Name": "Content-Type",
@@ -2435,15 +2733,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YOCZRYitydUh4IXHOOhlfaQCtqMDv579NjOWGzxLS38=\""
+          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow=\""
+          "Value": "W/\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:57:38 GMT"
+          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
         },
         {
           "Name": "Vary",
@@ -2453,7 +2751,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow="
+          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
         }
       ]
     },
@@ -2472,7 +2770,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2435"
+          "Value": "2857"
         },
         {
           "Name": "Content-Type",
@@ -2480,17 +2778,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow=\""
+          "Value": "\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:57:38 GMT"
+          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow="
+          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
         }
       ]
     },
@@ -2513,7 +2811,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "805"
+          "Value": "910"
         },
         {
           "Name": "Content-Type",
@@ -2521,11 +2819,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YOCZRYitydUh4IXHOOhlfaQCtqMDv579NjOWGzxLS38=\""
+          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:57:38 GMT"
+          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
         },
         {
           "Name": "Vary",
@@ -2535,18 +2833,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YOCZRYitydUh4IXHOOhlfaQCtqMDv579NjOWGzxLS38="
+          "Value": "sha256-mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0="
         }
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.vx94coeoa2.css",
+      "Route": "_content/Showcase-Contactpagina/css/wordle.jk5jezblzf.css",
       "AssetFile": "_content/Showcase-Contactpagina/css/wordle.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001240694789"
+          "Quality": "0.001097694841"
         }
       ],
       "ResponseHeaders": [
@@ -2564,7 +2862,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "805"
+          "Value": "910"
         },
         {
           "Name": "Content-Type",
@@ -2572,15 +2870,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YOCZRYitydUh4IXHOOhlfaQCtqMDv579NjOWGzxLS38=\""
+          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow=\""
+          "Value": "W/\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:57:38 GMT"
+          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
         },
         {
           "Name": "Vary",
@@ -2590,11 +2888,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vx94coeoa2"
+          "Value": "jk5jezblzf"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow="
+          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
         },
         {
           "Name": "label",
@@ -2603,7 +2901,7 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.vx94coeoa2.css",
+      "Route": "_content/Showcase-Contactpagina/css/wordle.jk5jezblzf.css",
       "AssetFile": "_content/Showcase-Contactpagina/css/wordle.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2617,7 +2915,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2435"
+          "Value": "2857"
         },
         {
           "Name": "Content-Type",
@@ -2625,21 +2923,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow=\""
+          "Value": "\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:57:38 GMT"
+          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vx94coeoa2"
+          "Value": "jk5jezblzf"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow="
+          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
         },
         {
           "Name": "label",
@@ -2648,7 +2946,7 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.vx94coeoa2.css.gz",
+      "Route": "_content/Showcase-Contactpagina/css/wordle.jk5jezblzf.css.gz",
       "AssetFile": "_content/Showcase-Contactpagina/css/wordle.css.gz",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2666,7 +2964,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "805"
+          "Value": "910"
         },
         {
           "Name": "Content-Type",
@@ -2674,11 +2972,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YOCZRYitydUh4IXHOOhlfaQCtqMDv579NjOWGzxLS38=\""
+          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:57:38 GMT"
+          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
         },
         {
           "Name": "Vary",
@@ -2688,11 +2986,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vx94coeoa2"
+          "Value": "jk5jezblzf"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YOCZRYitydUh4IXHOOhlfaQCtqMDv579NjOWGzxLS38="
+          "Value": "sha256-mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0="
         },
         {
           "Name": "label",
@@ -4005,13 +4303,174 @@
       ]
     },
     {
+      "Route": "_content/Showcase-Contactpagina/js/wordle.ipxd7cvc4e.js",
+      "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000457665904"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipxd7cvc4e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/js/wordle.ipxd7cvc4e.js",
+      "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipxd7cvc4e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/js/wordle.ipxd7cvc4e.js.gz",
+      "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipxd7cvc4e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/js/wordle.js.gz"
+        }
+      ]
+    },
+    {
       "Route": "_content/Showcase-Contactpagina/js/wordle.js",
       "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000479616307"
+          "Quality": "0.000457665904"
         }
       ],
       "ResponseHeaders": [
@@ -4029,7 +4488,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2084"
+          "Value": "2184"
         },
         {
           "Name": "Content-Type",
@@ -4037,15 +4496,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
+          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
+          "Value": "W/\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
+          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
         },
         {
           "Name": "Vary",
@@ -4055,7 +4514,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
+          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
         }
       ]
     },
@@ -4074,7 +4533,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7020"
+          "Value": "7497"
         },
         {
           "Name": "Content-Type",
@@ -4082,17 +4541,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
+          "Value": "\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
+          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
+          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
         }
       ]
     },
@@ -4115,7 +4574,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2084"
+          "Value": "2184"
         },
         {
           "Name": "Content-Type",
@@ -4123,11 +4582,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
+          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
+          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
         },
         {
           "Name": "Vary",
@@ -4137,168 +4596,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI="
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.zct8zwi0t4.js",
-      "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000479616307"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2084"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zct8zwi0t4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.zct8zwi0t4.js",
-      "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7020"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zct8zwi0t4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.zct8zwi0t4.js.gz",
-      "AssetFile": "_content/Showcase-Contactpagina/js/wordle.js.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2084"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 20:19:13 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zct8zwi0t4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MeCsv1uPB+yBQaBYQqwPYJSf3qLpKOiMstDuHlhiyzI="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/js/wordle.js.gz"
+          "Value": "sha256-kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs="
         }
       ]
     },

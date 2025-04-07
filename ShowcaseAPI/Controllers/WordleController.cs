@@ -121,6 +121,51 @@ public class WordleController : ControllerBase
             return new string(Enumerable.Repeat(chars, 6)
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
+        
+        [HttpPost("progress/update")]
+        public IActionResult UpdateProgress([FromBody] ProgressUpdateRequest request)
+        {
+            if (!gameSessions.TryGetValue(request.GameCode, out var session))
+            {
+                return NotFound(new { message = "Game session not found." });
+            }
+
+            if (request.PlayerId == session.Player1Id)
+            {
+                session.Player1Progress = request.Progress;
+            }
+            else if (request.PlayerId == session.Player2Id)
+            {
+                session.Player2Progress = request.Progress;
+            }
+            else
+            {
+                return BadRequest(new { message = "Invalid player ID." });
+            }
+
+            return Ok(new { success = true });
+        }
+        
+        [HttpGet("progress")]
+        public IActionResult GetOpponentProgress([FromQuery] string gameCode, [FromQuery] string playerId)
+        {
+            if (!gameSessions.TryGetValue(gameCode, out var session))
+            {
+                return NotFound(new { message = "Game session not found." });
+            }
+
+            if (playerId == session.Player1Id && session.Player2Progress != null)
+            {
+                return Ok(new { opponentProgress = session.Player2Progress });
+            }
+            else if (playerId == session.Player2Id && session.Player1Progress != null)
+            {
+                return Ok(new { opponentProgress = session.Player1Progress });
+            }
+
+            return Ok(new { opponentProgress = new int[6] }); // Default if not found
+        }
+
     }
 
     // Models
@@ -133,7 +178,18 @@ public class WordleController : ControllerBase
         public string? Player1Word { get; set; } = null;
         public string? Player2Word { get; set; } = null;
         public bool BothWordsSubmitted { get; set; } = false;
+        public int[] Player1Progress { get; set; } = new int[6];
+        public int[] Player2Progress { get; set; } = new int[6];
+
     }
+
+    public class ProgressUpdateRequest
+    {
+        public string GameCode { get; set; }
+        public string PlayerId { get; set; }
+        public int[] Progress { get; set; }
+    }
+
 
     public class JoinGameRequest
     {

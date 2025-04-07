@@ -54,6 +54,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\gdpr.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Showcase-Contactpagina</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Showcase-Contactpagina</BasePath>
+      <RelativePath>css/login.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s1w1dw6iow</Fingerprint>
+      <Integrity>gBqarAPnLSbW8YQaDYyHG+lXVfhJNuxz32E2bkELyIA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\profielpagina.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Showcase-Contactpagina</SourceId>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vx94coeoa2</Fingerprint>
-      <Integrity>U9fgx/HEMUphBA6wl41sK4a+bnV75hkRP033/GfRDow=</Integrity>
+      <Fingerprint>c3io0gidtw</Fingerprint>
+      <Integrity>aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\wordle.css'))</OriginalItemSpec>
@@ -120,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6zqamd0zc7</Fingerprint>
-      <Integrity>EpGALno00xtzCJLob5gWlzxTty/ZStoEB7wqzk2KpTQ=</Integrity>
+      <Fingerprint>ke1uwwqqac</Fingerprint>
+      <Integrity>ZN3tJiYNRhCmuGCZzMA6wVHBamSA0JqnK++j/E1rsrI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\WordleGame.css'))</OriginalItemSpec>
@@ -282,8 +300,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zct8zwi0t4</Fingerprint>
-      <Integrity>o+kHKEqrHapO1BomvSukOpPElY6U5zjEFoU5CGh3W9Q=</Integrity>
+      <Fingerprint>qo3fjnhkyj</Fingerprint>
+      <Integrity>an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\wordle.js'))</OriginalItemSpec>

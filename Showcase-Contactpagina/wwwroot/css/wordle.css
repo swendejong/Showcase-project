@@ -97,6 +97,40 @@ body {
 .enter-key-tile {
     width: 78px;
 }
+
+#opponent-tracker-wrapper {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.tracker-row {
+    display: flex;
+    gap: 6px;
+}
+
+.tracker-tile {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: lightgray;
+    border: 1px solid #999;
+}
+
+.progress-1 {
+    background-color: #f87171; /* red */
+}
+
+.progress-2 {
+    background-color: #4ade80; /* green */
+}
+
+
 /* Center the restart button below the game board */
 .restart-button-container {
     text-align: center;

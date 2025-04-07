@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Text.Json;
+using Microsoft.AspNetCore.Identity;
 using Showcase_Contactpagina.Models;
 
 namespace Showcase_Contactpagina.Controllers
@@ -30,7 +31,84 @@ namespace Showcase_Contactpagina.Controllers
             return View();
         }
 
+       private static List<User> Users = new();
 
+    private static PasswordHasher<User> passwordHasher = new();
+
+
+    public ActionResult Register()
+    {
+        return View("Register");
+    }
+
+    [HttpPost]
+    public ActionResult Register(string Username, string Email, string Password, string ConfirmPassword)
+    {
+        // Validate the inputs
+        if (Password != ConfirmPassword)
+        {
+            ViewBag.ErrorMessage = "Passwords do not match.";
+        }
+
+        // Check if the username or email already exists
+        if (IsUsernameTaken(Username) || IsEmailTaken(Email))
+        {
+            ViewBag.ErrorMessage = "Username or Email already exists.";
+        }
+
+        // Hash the password using PasswordHasher
+        var newUser = new User
+        {
+            Username = Username,
+            Email = Email,
+            PasswordHash = passwordHasher.HashPassword(null, Password) // Hash the password
+        };
+
+        Users.Add(newUser);  // Add to the in-memory list
+
+        // Redirect to login page after successful registration
+        return RedirectToAction("Login", "Wordle");
+    }
+
+    // Method to check if the username is already taken
+    private bool IsUsernameTaken(string username)
+    {
+        return Users.Any(u => u.Username == username);
+    }
+
+    // Method to check if the email is already taken
+    private bool IsEmailTaken(string email)
+    {
+        return Users.Any(u => u.Email == email);
+    }
+
+    // GET: Login
+    public ActionResult Login()
+    {
+        return View("Login");
+    }
+
+    // POST: Login
+    [HttpPost]
+    public ActionResult Login(string Username, string Password)
+    {
+        var user = Users.SingleOrDefault(u => u.Username == Username);
+
+        if (user != null)
+        {
+            // Verify the password using PasswordHasher
+            var result = passwordHasher.VerifyHashedPassword(user, user.PasswordHash, Password);
+
+            if (result == PasswordVerificationResult.Success)
+            {
+                // Successfully logged in, redirect to the dashboard or main page
+                return RedirectToAction("Index", "Wordle");
+            }
+        }
+
+        ViewBag.ErrorMessage = "Invalid username or password.";
+        return View("Login");
+    }
         // Create a new game
         [HttpPost]
         public async Task<IActionResult> CreateGame()
@@ -65,11 +143,7 @@ namespace Showcase_Contactpagina.Controllers
             // Redirect to the WaitingScreen view with the gameCode
             return View("WaitingScreen", new { gameCode });
         }
-
-
-
-
-
+        
         public IActionResult JoinGame()
         {
           return View("JoinGame");
@@ -86,4 +160,12 @@ namespace Showcase_Contactpagina.Controllers
             return RedirectToAction("Index", "Home");
         }
     }
+
+    public class User
+    {
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; } // Store hashed passwords
+    }
+
 }

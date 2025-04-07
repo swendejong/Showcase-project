@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Register - Wordle";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/login.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<!-- Register Container -->
+<div class="login-container">
+    <div class="login-form">
+        <h2 class="login-title">Create an Account</h2>
+
+        <!-- Register Form -->
+        @using (Html.BeginForm("Register", "Wordle", FormMethod.Post)) 
+        {
+            <!-- Username Field -->
+            <input type="text" class="login-input" placeholder="Username" name="Username" required />
+
+            <!-- Email Field -->
+            <input type="email" class="login-input" placeholder="Email" name="Email" required />
+
+            <!-- Password Field -->
+            <input type="password" class="login-input" placeholder="Password" name="Password" required />
+
+            <!-- Confirm Password Field -->
+            <input type="password" class="login-input" placeholder="Confirm Password" name="ConfirmPassword" required />
+
+            <!-- Error Message (optional) -->
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="error-message">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+
+            <!-- Register Button -->
+            <button type="submit" class="login-button">Register</button>
+        }
+
+        <!-- Redirect Links -->
+        <a href="@Url.Action("Login", "Wordle")" class="login-link">Already have an account? Login</a>
+    </div>
+</div>
+
+</body>
+</html>

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/css/gdpr.css"
     },
     {
+      "Id": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/login.css",
+      "PackagePath": "staticwebassets/css/login.css"
+    },
+    {
       "Id": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/profielpagina.css",
       "PackagePath": "staticwebassets/css/profielpagina.css"
     },
