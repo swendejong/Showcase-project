@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Showcase-Contactpagina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b32cde44c7a569ec83c2ce5cd1120560f5ee016f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15735f06e49a78ce2afc019b67bfa24607b9c73b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Showcase-Contactpagina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Showcase-Contactpagina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

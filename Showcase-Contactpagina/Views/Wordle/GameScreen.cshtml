@@ -16,13 +16,17 @@
 
 <div class="wordle-title-container">
     <h1 class="title">Wordle</h1>
+
+    <!-- Web Component  -->
+    <div style="text-align: center; margin-top: 8px;">
+        <simple-greeting name="Player"></simple-greeting>
+    </div>
 </div>
 
 <div id="opponent-tracker-wrapper" style="display: none;">
     <div id="opponent-tracker-label" style="font-size: 14px; font-weight: bold; margin-bottom: 4px;">Opponent's Guesses:</div>
     <div id="opponent-tracker" class="tracker-row"></div>
 </div>
-
 
 <div class="wordle-game-container">
     <div id="board"></div>
@@ -32,11 +36,23 @@
     <br>
     <h1 id="answer"></h1>
 
-
     <div id="keyboard-container"></div>
 </div>
+
 <div>
     <a asp-controller="Wordle" asp-action="Index" class="exit-button">QUIT</a>
 </div>
+
+<!--  Web Component Script -->
+<script>
+    class SimpleGreeting extends HTMLElement {
+        connectedCallback() {
+            const name = this.getAttribute('name') || 'player';
+            this.innerHTML = `<p style="color: green; font-weight: bold;">Hello, ${name}! 👋</p>`;
+        }
+    }
+    customElements.define('simple-greeting', SimpleGreeting);
+</script>
+
 </body>
 </html>

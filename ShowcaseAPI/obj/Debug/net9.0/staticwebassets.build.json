@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b3rhFdplx3I20pmCfvs+XudEYbDmG6H115jpfd9tNTk=",
+  "Hash": "8/j2B8HGWchR8RIz7hTWnOLFZP2seaC1Pys6lOC+VpU=",
   "Source": "ShowcaseAPI",
   "BasePath": "_content/ShowcaseAPI",
   "Mode": "Default",
@@ -12,10 +12,10 @@
       "Source": "Showcase-Contactpagina",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [
@@ -218,12 +218,12 @@
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5khoukvm97-2lgwfvgpvi.gz"
     },
     {
-      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-jk5jezblzf.gz",
+      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz",
       "SourceId": "Showcase-Contactpagina",
       "SourceType": "Project",
       "ContentRoot": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Showcase-Contactpagina",
-      "RelativePath": "css/wordle#[.{fingerprint=jk5jezblzf}]?.css.gz",
+      "RelativePath": "css/wordle#[.{fingerprint=c3io0gidtw}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -232,11 +232,11 @@
       "RelatedAsset": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/wordle.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "szaf1gy8ub",
-      "Integrity": "mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=",
+      "Fingerprint": "zy7x00w9w8",
+      "Integrity": "ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-jk5jezblzf.gz"
+      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz"
     },
     {
       "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/6f2ut9gzs1-pzqfkb6aqo.gz",
@@ -386,12 +386,12 @@
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/a9wdu6s4o1-oj2c26m4c0.gz"
     },
     {
-      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-ipxd7cvc4e.gz",
+      "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz",
       "SourceId": "Showcase-Contactpagina",
       "SourceType": "Project",
       "ContentRoot": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Showcase-Contactpagina",
-      "RelativePath": "js/wordle#[.{fingerprint=ipxd7cvc4e}]?.js.gz",
+      "RelativePath": "js/wordle#[.{fingerprint=qo3fjnhkyj}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -400,11 +400,11 @@
       "RelatedAsset": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xwfkmcba9k",
-      "Integrity": "kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=",
+      "Fingerprint": "bq24i23vur",
+      "Integrity": "03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-ipxd7cvc4e.gz"
+      "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz"
     },
     {
       "Identity": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bi394kpt7g-3rhuph8gc2.gz",
@@ -1639,8 +1639,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jk5jezblzf",
-      "Integrity": "DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=",
+      "Fingerprint": "c3io0gidtw",
+      "Integrity": "aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/wordle.css"
@@ -1849,8 +1849,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ipxd7cvc4e",
-      "Integrity": "Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=",
+      "Fingerprint": "qo3fjnhkyj",
+      "Integrity": "an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js"
@@ -4885,13 +4885,174 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.css",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-jk5jezblzf.gz",
+      "Route": "_content/Showcase-Contactpagina/css/wordle.c3io0gidtw.css",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001097694841"
+          "Quality": "0.001058201058"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:49:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3io0gidtw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/wordle.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/wordle.c3io0gidtw.css",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/wordle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:49:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3io0gidtw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/wordle.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/wordle.c3io0gidtw.css.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 19:49:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3io0gidtw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/css/wordle.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/css/wordle.css",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001058201058"
         }
       ],
       "ResponseHeaders": [
@@ -4909,15 +5070,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "910"
+          "Value": "944"
         },
         {
           "Name": "ETag",
-          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
+          "Value": "\"ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
+          "Value": "Mon, 07 Apr 2025 19:49:51 GMT"
         },
         {
           "Name": "Vary",
@@ -4929,13 +5090,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
+          "Value": "W/\"aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
+          "Value": "sha256-aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws="
         }
       ]
     },
@@ -4954,7 +5115,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2857"
+          "Value": "2975"
         },
         {
           "Name": "Content-Type",
@@ -4962,23 +5123,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
+          "Value": "\"aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
+          "Value": "Mon, 07 Apr 2025 19:49:51 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
+          "Value": "sha256-aO7eH1r7UzbdmOuxrenB2ARejlxDtAMkIaEyXNh6Mws="
         }
       ]
     },
     {
       "Route": "_content/Showcase-Contactpagina/css/wordle.css.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-jk5jezblzf.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-c3io0gidtw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4995,7 +5156,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "910"
+          "Value": "944"
         },
         {
           "Name": "Content-Type",
@@ -5003,11 +5164,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
+          "Value": "\"ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
+          "Value": "Mon, 07 Apr 2025 19:49:51 GMT"
         },
         {
           "Name": "Vary",
@@ -5017,168 +5178,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0="
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.jk5jezblzf.css",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-jk5jezblzf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001097694841"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "910"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jk5jezblzf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/css/wordle.css"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.jk5jezblzf.css",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/css/wordle.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2857"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jk5jezblzf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DTNXj2loul3i6JqzvQKmWAxGMtFasipn92B7OGpC/Kk="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/css/wordle.css"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/css/wordle.jk5jezblzf.css.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/5otdnkkdr8-jk5jezblzf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "910"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:12:41 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jk5jezblzf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mBnF6jHD8+r2qu5tfupGb+o2aCBSjwv89Niqr9Wcxd0="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/css/wordle.css.gz"
+          "Value": "sha256-ZRkG8m41C9/4Pe4LPVnuxJvE4LamexRZZtBjdJW1TyY="
         }
       ]
     },
@@ -6785,174 +6785,13 @@
       ]
     },
     {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.ipxd7cvc4e.js",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-ipxd7cvc4e.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000457665904"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2184"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ipxd7cvc4e"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.ipxd7cvc4e.js",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7497"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ipxd7cvc4e"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Showcase-Contactpagina/js/wordle.ipxd7cvc4e.js.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-ipxd7cvc4e.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ipxd7cvc4e"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Showcase-Contactpagina/js/wordle.js.gz"
-        }
-      ]
-    },
-    {
       "Route": "_content/Showcase-Contactpagina/js/wordle.js",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-ipxd7cvc4e.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000457665904"
+          "Quality": "0.000328731098"
         }
       ],
       "ResponseHeaders": [
@@ -6970,15 +6809,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2184"
+          "Value": "3041"
         },
         {
           "Name": "ETag",
-          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
+          "Value": "\"03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
+          "Value": "Mon, 07 Apr 2025 21:12:09 GMT"
         },
         {
           "Name": "Vary",
@@ -6990,13 +6829,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
+          "Value": "W/\"an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
+          "Value": "sha256-an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c="
         }
       ]
     },
@@ -7015,7 +6854,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7497"
+          "Value": "11033"
         },
         {
           "Name": "Content-Type",
@@ -7023,23 +6862,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo=\""
+          "Value": "\"an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
+          "Value": "Mon, 07 Apr 2025 21:12:09 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Gg1p7SR46TyA1jvggMAH8/tzugHw5LQTf8zl9YW4PLo="
+          "Value": "sha256-an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c="
         }
       ]
     },
     {
       "Route": "_content/Showcase-Contactpagina/js/wordle.js.gz",
-      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-ipxd7cvc4e.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7056,7 +6895,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2184"
+          "Value": "3041"
         },
         {
           "Name": "Content-Type",
@@ -7064,11 +6903,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs=\""
+          "Value": "\"03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 19:15:25 GMT"
+          "Value": "Mon, 07 Apr 2025 21:12:09 GMT"
         },
         {
           "Name": "Vary",
@@ -7078,7 +6917,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kUP/S2YfbuYI0fxzf5Lp3YkOYJh++53w+6FmCi+VbSs="
+          "Value": "sha256-03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/js/wordle.qo3fjnhkyj.js",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000328731098"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3041"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:12:09 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qo3fjnhkyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/js/wordle.qo3fjnhkyj.js",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/wwwroot/js/wordle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11033"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:12:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qo3fjnhkyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-an/hj6TXIlI9Rrv6qWfOCTeRtLTYPB2pcsM9sWNbh2c="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/js/wordle.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Showcase-Contactpagina/js/wordle.qo3fjnhkyj.js.gz",
+      "AssetFile": "/Users/swendejong/Desktop/Showcase_contactpagina/Showcase-Contactpagina/obj/Debug/net9.0/compressed/bcxl5yo9ph-qo3fjnhkyj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 21:12:09 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qo3fjnhkyj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-03AGVcyrWIQlaTfMarM55BuZWGSgooL8cprj1hKc7Lk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Showcase-Contactpagina/js/wordle.js.gz"
         }
       ]
     },

@@ -31,9 +31,9 @@ namespace Showcase_Contactpagina.Controllers
             return View();
         }
 
-       private static List<User> Users = new();
+       public static List<User> Users = new();
 
-    private static PasswordHasher<User> passwordHasher = new();
+        private static PasswordHasher<User> passwordHasher = new();
 
 
     public ActionResult Register()
